@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding-right: 1em;
+}
+.signup{
+    border: 1px solid #ff6634;
+    background-color: #fff;
+    color: #ff6634;
+    width: 7vw;
+    height: 4vh;
+    margin-top: 0.5%;
+}
+.top-section{
+    display: flex;
+    background: #ffebff;
+    padding: 1em;
+}
+.top-left{
+    margin-left: 10%;
+}
+.comma{
+    height: 2vh;
+}
+.down-quote{
+    margin-left: 70%;
+}
+.hero{
+    height: 50vh;
+    margin-left: 40%;
+}
+input{
+    height: 6vh;
+    border: none;
+    width: 20vw;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left: 1em;
+}
+.search-button{
+    background: #ff6634;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 5vh;
+    width: 7vw;
+    margin-left: -28%;
+}
+span{
+    color: #ff6634;
+}
+.rate{
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+.employee{
+    position: absolute;
+    top: 28%;
+    left: 75%;
+}
+.top-image{
+    position: absolute;
+    height: 18vh;
+    width: 13vw;
+    left: 55%;
+    top: 40%;
+}
+.featured-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+    background: #f8f8f8;
+    height: 30vh;
+    padding: 1em;
+}
+.submit-button{
+    background: #ff6634;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 6vh;
+    width: 7vw;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.advertisement{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.card{
+    height: 30vh;
+    width: 27vw;
+    margin-right: 2%;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.free-account{
+    display: flex;
+    justify-content: space-around;
+    background: #ffebff;
+    padding: 1em;
+    width: 50vw;
+    margin: 5% 0 0 20%;
+}
+.free-account-button{
+    background: #ff6634;
+    border: none;
+    color: #fff;
+    height: 5vh;
+    width: 12vw;
+    margin-top: 7%;
+}
+.footer{
+    background-color: #1f2131;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: #fff;
+    margin-top: 5%;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 40vh;
+}
+.icon{
+    padding: 1em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 1%;
+    height: 2vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .nav{
+        justify-content: center;
+    }
+    .signup{
+        width: 16vw;
+        margin-top: 3%;
+    }
+    .top-section{
+        flex-direction: column;
+    }
+    input{
+        width: 80%;
+    }
+    .search-button{
+        width: 18vw;
+    }
+    .top-right{
+        margin-left: -95%;
+    }
+    .rate{
+        position: absolute;
+        left: 10%;
+        top: 90%;
+    }
+    .employee{
+        position: absolute;
+        left: 62%;
+        top: 92%;
+    }
+    .top-image{
+        position: absolute;
+        width: 50vw;
+        left: 1%;
+        top: 115%;
+    }
+    .featured-reviews{
+        padding: 1em;
+    }
+    .newsletter{
+        flex-direction: column;
+        height: 30%;
+    }
+    .submit-button{
+        width: 16vw;
+    }
+    .newsletter-image{
+        margin: 5% 0 0 15%;
+    }
+    .sponsors{
+        flex-direction: column;
+    }
+    .sponsors img{
+        height: 13vh;
+    }
+    .advertisement{
+        flex-direction: column;
+    }
+    .card{
+        width: 85%;
+        margin-bottom: 3%;
+    }
+    .free-account{
+        width: 80vw;
+        margin-left: 5%;
+    }
+    .free-account-button{
+        height: 7vh;
+        width: 25vw;
+        margin-top: 9%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .company{
+        margin-right: 15%;
+    }
+}
