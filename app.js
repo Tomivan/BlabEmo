@@ -19,8 +19,8 @@ window.onload = function () {
 
 count = 0;
 let quotes = [
-    'A life spent making mistakes is not only more <br /> honorable, but more useful than a life spent <br />doing nothing.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et aliqua.<br /> Ut enim ad minim veniam.'
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempor incididunt ut labore et aliqua.<br /> Ut enim ad minim veniam.',
+    'A life spent making mistakes is not only more <br /> honorable, but more useful than a life spent <br />doing nothing.'
 ]
 setInterval(function () {
     count++;
